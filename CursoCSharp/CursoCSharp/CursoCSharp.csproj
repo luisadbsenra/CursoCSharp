@@ -44,7 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="Conversoes.cs" />
+    <Compile Include="Fundamentos\Comentarios.cs" />
+    <Compile Include="Fundamentos\FormatandoNumero.cs" />
+    <Compile Include="Fundamentos\Inferencia.cs" />
+    <Compile Include="Fundamentos\Interpolação.cs" />
+    <Compile Include="Fundamentos\LendoDados.cs" />
+    <Compile Include="Fundamentos\NotacaoPonto.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
+    <Compile Include="Fundamentos\VariaveisEConstate.cs" />
+    <Compile Include="OperadoresAritmeticos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
