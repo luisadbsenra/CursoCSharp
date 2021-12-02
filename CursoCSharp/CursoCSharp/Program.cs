@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.Controle;
+using CursoCSharp.Classe;
 
 namespace CursoCSharp {
     class Program {
@@ -33,6 +34,15 @@ namespace CursoCSharp {
                 { "For - Controle", foor.doda},
                 { "Foreach - Controle", fforeach.name},
                 { "Break - Controle", breeak.bb},
+                // classes e metodos
+                { "Membro - Classes", Membros.ex},
+                { "Construtor - Classes", Construtor.Ex},
+                { "Metodos com Retorno - Classes", MetodosRetorno.Exe},
+                { "Metodos Estatico - Classes", MetodosEstaticos.Exe},
+                { "Atributos Estatico - Classes", AtributoEstatico.Exe},
+                { "Desafio - Classes", DesafioAtributo.Ex},
+                { "Params - Classes", Parametros.exe},
+                { "Params No - Classes", ParamNo.Exe},
 
 
             });
