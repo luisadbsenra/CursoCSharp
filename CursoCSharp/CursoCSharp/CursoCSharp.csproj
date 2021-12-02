@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
+    <Compile Include="Controle\fforeach.cs" />
+    <Compile Include="Controle\UsingIfElse.cs" />
+    <Compile Include="Controle\Elif.cs" />
+    <Compile Include="Controle\foor.cs" />
+    <Compile Include="Controle\dowhile.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
@@ -61,6 +66,8 @@
     <Compile Include="Fundamentos\OperadoresUnários.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controle\sswitch.cs" />
+    <Compile Include="Controle\wwhile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
