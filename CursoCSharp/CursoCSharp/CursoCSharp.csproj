@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CentralDeExercicios.cs" />
-    <Compile Include="Conversoes.cs" />
+    <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
     <Compile Include="Fundamentos\Inferencia.cs" />
@@ -53,9 +53,12 @@
     <Compile Include="Fundamentos\NotacaoPonto.cs" />
     <Compile Include="Fundamentos\OperadoresLógicos.cs" />
     <Compile Include="Fundamentos\OperadoresRelacionais.cs" />
+    <Compile Include="Fundamentos\OperadorTenario.cs" />
     <Compile Include="Fundamentos\PrimeiroPrograma.cs" />
     <Compile Include="Fundamentos\VariaveisEConstate.cs" />
-    <Compile Include="OperadoresAritmeticos.cs" />
+    <Compile Include="Fundamentos\OperadoresAritmeticos.cs" />
+    <Compile Include="Fundamentos\OperadoresAtribuicao.cs" />
+    <Compile Include="Fundamentos\OperadoresUnários.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
