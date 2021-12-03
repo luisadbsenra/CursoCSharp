@@ -46,12 +46,26 @@
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="Classe\AtributoEstatico.cs" />
     <Compile Include="Classe\DesafioAtributo.cs" />
+    <Compile Include="Classe\ExemploEnum.cs" />
+    <Compile Include="Classe\GetSet.cs" />
     <Compile Include="Classe\MetodosEstaticos.cs" />
     <Compile Include="Classe\MetodosRetorno.cs" />
     <Compile Include="Classe\Construtor.cs" />
     <Compile Include="Classe\Membros.cs" />
     <Compile Include="Classe\Parametros.cs" />
+    <Compile Include="Classe\ParamPad.cs" />
+    <Compile Include="Classe\ParamRed.cs" />
     <Compile Include="Classe\Pessoa.cs" />
+    <Compile Include="Classe\StructClasse.cs" />
+    <Compile Include="Classe\ValorRef.cs" />
+    <Compile Include="Colecoes\Array.cs" />
+    <Compile Include="Colecoes\ColDict.cs" />
+    <Compile Include="Colecoes\ColocoesSet.cs" />
+    <Compile Include="Colecoes\FilaQueue.cs" />
+    <Compile Include="Colecoes\Igualdade.cs" />
+    <Compile Include="Colecoes\Lista.cs" />
+    <Compile Include="Colecoes\ArrayLista.cs" />
+    <Compile Include="Colecoes\Stack.cs" />
     <Compile Include="Controle\breeak.cs" />
     <Compile Include="Controle\fforeach.cs" />
     <Compile Include="Controle\UsingIfElse.cs" />
@@ -73,11 +87,14 @@
     <Compile Include="Fundamentos\OperadoresAritmeticos.cs" />
     <Compile Include="Fundamentos\OperadoresAtribuicao.cs" />
     <Compile Include="Fundamentos\OperadoresUnários.cs" />
-    <Compile Include="ParamNo.cs" />
+    <Compile Include="Classe\ParamNo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controle\sswitch.cs" />
     <Compile Include="Controle\wwhile.cs" />
+    <Compile Include="Classe\Propi.cs" />
+    <Compile Include="Classe\Readonly.cs" />
+    <Compile Include="Classe\Struct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,9 +4,12 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.Controle;
 using CursoCSharp.Classe;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
+
+        // passar parametros no terminal - string[] args
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>()  {
                 // fundamentos
@@ -43,6 +46,26 @@ namespace CursoCSharp {
                 { "Desafio - Classes", DesafioAtributo.Ex},
                 { "Params - Classes", Parametros.exe},
                 { "Params No - Classes", ParamNo.Exe},
+                { "GetSet - Classes", GetSet.ex},
+                { "Propiedade - Classes", Propi.Ex},
+                { "Readonly - Classes e Métodos", Readonly.Executar},
+                { "Enumeração - Classes e Métodos", ExemploEnum.executar},
+                { "Struct - Classes e Métodos", ExemploStruct.Execu},
+                { "Struct e Classes - Classes e Métodos", StructClasse.Exe},
+                { "Valor e Referência - Classes e Métodos", ValorRef.ec},
+                { "Paramentro por Referência - Classes e Métodos", ParamRed.Som},
+                { "Parametro Padrão - Classes e Métodos", ParamPad.Exe},
+                // Coleções
+
+                { "Array - Colecoes", AArray.exe},
+                { "Lista - Colecoes", Lista.exe},
+                { "ArrayList - Colecoes", ArrayLista.exe},
+                { "Set - Coleções", ColocoesSet.exe},
+                { "Queue Fila - Coleções", FilaQueue.Exe},
+                { "Igualdade - Coleções", Igualdade.ex},
+                { "Stack - Coleções", aStack.exe},
+                { "Dictionary - Coleções", ColDict.Exe},
+                
 
 
             });
