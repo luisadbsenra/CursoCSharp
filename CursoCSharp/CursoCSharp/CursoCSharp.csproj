@@ -88,6 +88,12 @@
     <Compile Include="Fundamentos\OperadoresAtribuicao.cs" />
     <Compile Include="Fundamentos\OperadoresUnários.cs" />
     <Compile Include="Classe\ParamNo.cs" />
+    <Compile Include="OO\Abstrato.cs" />
+    <Compile Include="OO\ConstrutorThis.cs" />
+    <Compile Include="OO\Heranca.cs" />
+    <Compile Include="OO\Interfacew.cs" />
+    <Compile Include="OO\Polimorfismo.cs" />
+    <Compile Include="OO\Sealed.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controle\sswitch.cs" />
@@ -95,10 +101,10 @@
     <Compile Include="Classe\Propi.cs" />
     <Compile Include="Classe\Readonly.cs" />
     <Compile Include="Classe\Struct.cs" />
+    <Compile Include="teste.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

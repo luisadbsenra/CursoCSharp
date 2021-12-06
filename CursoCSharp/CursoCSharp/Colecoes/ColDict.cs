@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.*;
+using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 using System.Text;
@@ -17,7 +17,7 @@ namespace CursoCSharp.Colecoes {
 
             if (filmes.ContainsKey(2004)) {
                 Console.WriteLine("2004: " + filmes[2004]);
-                Console.WriteLine("2004: " + filmes.GetValueOrDefalut(2004))();
+
             }
         }
         

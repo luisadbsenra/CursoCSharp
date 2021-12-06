@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
 using CursoCSharp.Controle;
 using CursoCSharp.Classe;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 namespace CursoCSharp {
     class Program {
@@ -39,7 +39,7 @@ namespace CursoCSharp {
                 { "Break - Controle", breeak.bb},
                 // classes e metodos
                 { "Membro - Classes", Membros.ex},
-                { "Construtor - Classes", Construtor.Ex},
+              //  { "Construtor - Classes", Construtor.},
                 { "Metodos com Retorno - Classes", MetodosRetorno.Exe},
                 { "Metodos Estatico - Classes", MetodosEstaticos.Exe},
                 { "Atributos Estatico - Classes", AtributoEstatico.Exe},
@@ -65,6 +65,15 @@ namespace CursoCSharp {
                 { "Igualdade - Coleções", Igualdade.ex},
                 { "Stack - Coleções", aStack.exe},
                 { "Dictionary - Coleções", ColDict.Exe},
+
+
+                // OO
+                {"Herança - Orientação ao Objeto", Heranca.Executar},
+                {"Construtor this - Orientação ao Objeto", ConstrutorThis.Exe},
+                {"Parametros - Orientação ao Objeto", Polimorfismo.Exe},
+                {"Abstract - Orientação ao Objeto", Abstrato.Abs},
+                {"Interface - Orientação ao Objeto", Interfacew.Exe},
+                {"Sealed - Orientação ao Objeto", Sealed.A},
                 
 
 
