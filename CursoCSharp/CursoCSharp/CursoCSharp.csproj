@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\First.cs" />
     <Compile Include="CentralDeExercicios.cs" />
     <Compile Include="Classe\AtributoEstatico.cs" />
     <Compile Include="Classe\DesafioAtributo.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Controle\Elif.cs" />
     <Compile Include="Controle\foor.cs" />
     <Compile Include="Controle\dowhile.cs" />
+    <Compile Include="ErroExc\ExceErro.cs" />
+    <Compile Include="ErroExc\ExecoesPerso.cs" />
     <Compile Include="Fundamentos\Conversoes.cs" />
     <Compile Include="Fundamentos\Comentarios.cs" />
     <Compile Include="Fundamentos\FormatandoNumero.cs" />
@@ -88,6 +91,11 @@
     <Compile Include="Fundamentos\OperadoresAtribuicao.cs" />
     <Compile Include="Fundamentos\OperadoresUnários.cs" />
     <Compile Include="Classe\ParamNo.cs" />
+    <Compile Include="MetodosFuncoes\DelAno.cs" />
+    <Compile Include="MetodosFuncoes\DelPar.cs" />
+    <Compile Include="MetodosFuncoes\Lambdaa.cs" />
+    <Compile Include="MetodosFuncoes\LambdaDel.cs" />
+    <Compile Include="MetodosFuncoes\MetodoExt.cs" />
     <Compile Include="OO\Abstrato.cs" />
     <Compile Include="OO\ConstrutorThis.cs" />
     <Compile Include="OO\Heranca.cs" />
@@ -106,5 +114,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,6 +5,9 @@ using CursoCSharp.Controle;
 using CursoCSharp.Classe;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosFuncoes;
+using CursoCSharp.ErroExc;
+using CursoCSharp.API;
 
 namespace CursoCSharp {
     class Program {
@@ -74,10 +77,26 @@ namespace CursoCSharp {
                 {"Abstract - Orientação ao Objeto", Abstrato.Abs},
                 {"Interface - Orientação ao Objeto", Interfacew.Exe},
                 {"Sealed - Orientação ao Objeto", Sealed.A},
-                
+
+                // Métodos e Funções
+                {"Lambda - Metodos e Funções", Lambdaa.wxe},
+                {"Delegate - Metodos e Funções", LambdaDel.exee},
+                {"Delegate Anônimo - Metodos e Funções", DelAno.exeee},
+                {"Delegate Paramatro - Metodos e Funções", DelPar.Exe},
+                {"Metodos de Extensão - Metodos e Funções", MetodoExt.Exe},
 
 
-            });
+                // Erros e Exeções
+                {"Exeções - Erros", ExceErro.Exe},
+                {"Exeções Erro - Erros", ExecoesPerso.Exec},
+
+
+                //API
+                {"Diretorios - API", First.Exe},
+                {"Lendo - API", LendoArquivos.Exe},
+
+
+            }); ;
 
             central.SelecionarEExecutar();
         }
